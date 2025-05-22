@@ -4,9 +4,11 @@ class Node:
         self.valor = valor # guarda o valor do no
         self.esquerda = None # cria uma branch, mas define nada nela
         self.direita = None # o mesmo do de cima
+        
     # PRECISAMOS QUE OS NUMEROS VOLTEM, ENTAO CONVERTEMOS OS VALORES EM STR para retornarem
     def __str__(self):
         return str(self.valor)
+        
 # CRIACAO DE UMA CLASSE PARA A ARVOREBINARIA EM SI
 class arvorebinaria:
     def __init__(self, valor):
